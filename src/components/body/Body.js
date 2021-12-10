@@ -2,6 +2,8 @@ import React from "react";
 import "./Body.css";
 import logo from "./Logo.png";
 import foto from "./Radit.jpg";
+import DietOn from "./DietOn.png";
+import Button from "@mui/material/Button";
 
 function Body() {
   return (
@@ -91,8 +93,28 @@ function Body() {
           </div>
         </div>
       </div>
-      <br/>
-      <div className="portofolio">halo</div>
+      <br />
+
+      <div className="portofolio">
+        <div>
+          <p id="titlePorto">Portofolio</p>
+        </div>
+        <div>
+          <div className="dieton">
+            <img src={DietOn} alt="DietOn" />
+          </div>
+          <p>Dieton App Website</p>
+          <p id="descPorto">
+            App about supporting your aim to pursue diet goalswith features like
+            a meal plan, calorie tracker, exercise plan, and weight measurement.
+          </p>
+          <a href="https://dieton.netlify.app/">
+            {" "}
+            <Button variant="CONTAINED">Go to Web</Button>
+          </a>
+          <p></p>
+        </div>
+      </div>
     </>
   );
 }

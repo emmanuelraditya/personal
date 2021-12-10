@@ -65,7 +65,7 @@
 }
 
 #title {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .eduTitle {
@@ -100,25 +100,47 @@
 }
 
 .skill {
-    display: grid;
-    float: left;
-    padding-left: 10rem;
-    gap:10px;
+  display: grid;
+  float: left;
+  padding-left: 10rem;
+  gap: 10px;
 }
 
 #skillTitle {
-    font-weight: medium;
-    font-size: 32px;
+  font-weight: medium;
+  font-size: 32px;
 }
 
 .skill {
-    text-align: left;
+  text-align: left;
 }
 
 .skill ul li {
-    margin:0 0 10px 0;
+  margin: 0 0 10px 0;
 }
 
 .portofolio {
-    display: grid;
+  display: grid;
+  float: left;
+  margin-top: 16rem;
+  margin-left: -5rem;
 }
+
+.dieton img {
+  width: 400px;
+  height: auto;
+}
+
+#titlePorto {
+  text-align: left;
+  margin-left: -40%;
+  font-size: 32px;
+  font-weight: medium;
+place-items: center;
+}
+
+.dieton a {
+  text-decoration: none;
+}
+
+
