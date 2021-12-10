@@ -38,7 +38,7 @@
 }
 
 .logo {
-    padding-top: 8%;
+  padding-top: 8%;
   padding-right: 15%;
 }
 .logo img {
@@ -56,17 +56,69 @@
   text-align: center;
 }
 
+.education {
+  display: grid;
+  float: left;
+  padding-left: 30rem;
+  text-align: left;
+  gap: 10px;
+}
+
+#title {
+    font-weight: bold;
+}
+
+.eduTitle {
+  font-weight: medium;
+  font-size: 32px;
+}
 .job {
-    display: grid;
-    gap: 1rem;
-    text-align: left;
+  display: grid;
+  gap: 1rem;
+  text-align: left;
 }
 
 .foto img {
-    width: auto;
-    height: 300px;
+  width: auto;
+  height: 300px;
 }
 
+.careerSummary {
+  font-weight: medium;
+  font-size: 32px;
+}
+
+.descJob {
+  text-align: left;
+}
 #desc1 {
-    padding-top: 2rem;
+  padding-top: 5rem;
+}
+
+#desc2 {
+  padding-top: 6rem;
+}
+
+.skill {
+    display: grid;
+    float: left;
+    padding-left: 10rem;
+    gap:10px;
+}
+
+#skillTitle {
+    font-weight: medium;
+    font-size: 32px;
+}
+
+.skill {
+    text-align: left;
+}
+
+.skill ul li {
+    margin:0 0 10px 0;
+}
+
+.portofolio {
+    display: grid;
 }
